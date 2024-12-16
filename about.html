@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Andrea Amba-an - NISU CICS Student | About</title>
+    <meta name="description" content="Get to know Andrea Amba-an, a student of NISU CICS, and her aspirations for the future. Discover her story here!">
+</head>
+<body>
+
+   <!--Navigation Bar (Start)-->
+   <div id="navbar-placeholder"></div>
+   <!--Navigation Bar (End)-->
+
+   <!--About Part (Start)-->
+<section class ="about" id="about">
+    <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+            <div class="left">
+                <img src="main.jpg" alt=""/>
+            </div>
+        <div class="right">
+            <p class="about-text">Hi, again! My name is <span>Andrea Amba-an</span> and I'm a <span>Game Developer.</span>
+                My journey into tech started at a very young age. My father, an expert in computers and a passionate gamer, ignited my own love for gaming. 
+                At the age of 6, I played my first online game, Flyff. From then on, I explored nearly every online game that became popular in the Philippines, 
+                which fueled my dream of creating my own game someday. However, achieving one's dream is never simple, and staying on track has been a challenge. 
+                Along the way, I learned and grew in Network Administration, with guidance from my father. Through his mentorship and my experiences, 
+                I’ve developed a broad skill set in technology. Thanks to my alma mater, the College of Information and Computing Studies (CICS) at Northern Iloilo State University (NISU), I’ve been brought closer to my dream of becoming a Game Developer.</p>
+            <div class="exp-area">
+                <div class="exp-area">
+                    <p class="exp"><i class="fa-solid fa-network-wired"></i> Expertise: <span>Network Administration</span></p>
+                    <p class="exp"><i class="fa-solid fa-gamepad"></i> Specialty: <span>Game Development</span></p>
+                    <p class="exp"><i class="fa-solid fa-heart"></i></i> Others: <span>Digital Arts, Decoden, and Baking (Bread and Pastries)</span></p>
+                    <br><h4>Other Information</h4>
+                    <p class="exp"><i class="fa-solid fa-location-dot"></i> Address: <span>Estancia, Iloilo, Philippines</span></p>
+                    <p class="exp"><i class="fa-solid fa-envelope"></i> Email: <span><a href="mailto:ambaan.andrea@gmail.com" title="Send me an email.">ambaan.andrea@gmail.com</a></span></p>
+                    <p class="exp"><i class="fa-solid fa-phone"></i> Phone: <span><a href="tel:+639549540532" title="Contact me.">09549540532</a></span></p>
+                </div>
+            </div>
+            <!--<div class="button">
+            <button> View All Projects</button> -->
+        </div> 
+        </div>
+        </div>
+    </div>
+</section>
+    <!--About Part (End)-->
+
+
+    <!--Script (Start)-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            // Load the navbar dynamically
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-placeholder').innerHTML = data;
+                });
+        </script>
+        <script src="script.js"></script>
+    <!--Script (End)-->
+
+    
+</body>
+</html>
+
+        

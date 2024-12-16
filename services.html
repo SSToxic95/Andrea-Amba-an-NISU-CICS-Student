@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Andrea Amba-an - NISU CICS Student | Skills</title>
+    <meta name="description" content="Get to know Andrea Amba-an, a student of NISU CICS, and her aspirations for the future. Discover her story here!">
+</head>
+<body>
+
+   <!--Navigation Bar (Start)-->
+   <div id="navbar-placeholder"></div>
+   <!--Navigation Bar (End)-->
+
+
+   <!--Services Part (Start)-->
+   <section class="services" id="services">
+    <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="topic">Game Development</div>
+                <p>sdasihdjkashdasjkhdasd</p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="topic">Game Development</div>
+                <p>sdasihdjkashdasjkhdasd</p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="topic">Network Administration</div>
+                <p>sdasihdjkashdasjkhdasd</p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="topic">Network Administration</div>
+                <p>sdasihdjkashdasjkhdasd</p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="topic">Network Administration</div>
+                <p>sdasihdjkashdasjkhdasd</p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="topic">Network Administration</div>
+                <p>sdasihdjkashdasjkhdasd</p>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!--Services Part (End)-->
+
+
+<!--Script Part (Start)-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({offset:0});
+</script>
+<script>
+    // Load the navbar dynamically
+    fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar-placeholder').innerHTML = data;
+        });
+</script>
+<script src="script.js"></script>
+<!--Script Part (End)-->
+
+</body>
+</html>

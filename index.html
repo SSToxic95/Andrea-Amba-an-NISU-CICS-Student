@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Andrea Amba-an - NISU CICS Student | Home</title>
+    <meta name="description" content="Get to know Andrea Amba-an, a student of NISU CICS, and her aspirations for the future. Discover her story here!">
+</head>
+
+
+<body>
+    <!--Navigation Bar (Start)-->
+    <div id="navbar-placeholder"></div>
+    <!--Navigation Bar (End)-->
+
+
+    <!--Home Part (Start)-->
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="main.jpg" alt="Andrea Amba-an NISU CICS Student">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Andrea</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am currently pursuing my Bachelor of Science in Information Technology at the College of Information and Computing Studies (CICS) at Northern Iloilo State University (NISU) Main Campus. 
+                    I major in Web and Mobile Development, though my primary strengths lie in Computer Networking and Game Development. 
+                    As a gamer, I've always found joy and freedom in playing, and this passion has fueled my aspiration to create my own game someday. 
+                    My goal is to develop a globally successful game that resonates with fellow gamers, providing them a virtual world where they can truly feel at home. 
+                    If you're interested in collaborating or working with me, feel free to reach out through my social media links below.
+                     <br><br>
+                     Ad astra abyssosque, Adventurer! With effort you shall reach the stars and conquer the abyss! -Katheryne (Genshin Impact)</p>
+                <div class="social-links">
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <!-- <button>Hire me</button> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Home Part (End)-->
+
+
+    <!--Script Part (Start)-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            // Load the navbar dynamically
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('navbar-placeholder').innerHTML = data;
+                });
+        </script>
+        <script src="script.js"></script>
+        <!--Script Part (End)-->
+</body>
+</html>
